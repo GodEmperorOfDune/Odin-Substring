@@ -1,4 +1,4 @@
-def substrings(word, dict)
+def Substrings(word, dict)
   words = word.downcase.split(" ")
   p words
   dict.reduce(Hash.new(0)) do |result, word_in_dict|
