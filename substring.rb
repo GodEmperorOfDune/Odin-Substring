@@ -1,5 +1,3 @@
-dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-
 def substrings(word, dict)
   words = word.downcase.split(" ")
   p words
@@ -15,5 +13,3 @@ def substrings(word, dict)
     result
   end
 end
-
-p substrings("Howdy partner, sit down! How's it going?", dictionary)
